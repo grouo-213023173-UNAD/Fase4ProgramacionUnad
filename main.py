@@ -1,5 +1,10 @@
-from utils.logger import registrar_log
+from exceptions.custom_exceptions import ClienteInvalidoError
 
-registrar_log('Sistema iniciado correctamente') #
 
-print("log registrado")
+try:
+
+    raise ClienteInvalidoError("El cliente no tiene un email válido")
+
+except ClienteInvalidoError as error:
+
+    print(f"Error detectado: {error}")
