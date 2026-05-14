@@ -1,4 +1,5 @@
 from models.cliente import Cliente
+from models.servicio import Servicio
 from exceptions.custom_exceptions import ClienteInvalidoError
 
 
@@ -15,3 +16,5 @@ try:
 except ClienteInvalidoError as error:
 
     print(f"Error: {error}")
+
+servicio = Servicio("Servicio general", 100)
