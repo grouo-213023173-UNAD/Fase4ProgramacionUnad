@@ -9,3 +9,47 @@
 [2026-05-15 17:18:11]: Email inválido: El email del cliente no es válido
 [2026-05-15 17:18:11]: Sala Ejecutiva creada
 [2026-05-15 17:18:12]: Sistema finalizado
+[2026-05-15 17:57:34]: Cliente Daniel registrado correctamente
+[2026-05-15 17:57:34]: Error cliente inválido: El nombre del cliente no puede estar vacío
+[2026-05-15 17:57:34]: Servicio Sala Premium creado
+[2026-05-15 17:57:34]: Reserva creada correctamente
+[2026-05-15 17:57:34]: Reserva inválida detectada: La duración de la reserva debe ser mayor a cero
+[2026-05-15 17:57:34]: Reserva confirmada
+[2026-05-15 17:57:34]: Reserva cancelada
+[2026-05-15 17:57:34]: Cliente inválido: El documento del cliente no puede estar vacío
+[2026-05-15 17:57:34]: Email inválido: El email del cliente no es válido
+[2026-05-15 17:57:34]: Sala Ejecutiva creada
+[2026-05-15 17:57:34]: Servicio alquiler creado
+[2026-05-15 17:57:34]: Servicio asesoría creado
+[2026-05-15 17:57:34]: Sistema finalizado
+[2026-05-15 18:00:53]: Cliente Daniel registrado correctamente
+[2026-05-15 18:00:53]: Error cliente inválido: El nombre del cliente no puede estar vacío
+[2026-05-15 18:00:53]: Servicio Sala Premium creado
+[2026-05-15 18:00:53]: Reserva creada correctamente
+[2026-05-15 18:00:53]: Reserva inválida detectada: La duración de la reserva debe ser mayor a cero
+
+[2026-05-15 18:00:53]: Reserva confirmada
+[2026-05-15 18:00:53]: Reserva cancelada
+[2026-05-15 18:00:53]: Cliente inválido: El documento del cliente no puede estar vacío
+
+[2026-05-15 18:00:53]: Email inválido: El email del cliente no es válido
+
+[2026-05-15 18:00:53]: Sala Ejecutiva creada
+[2026-05-15 18:00:53]: Servicio alquiler creado
+[2026-05-15 18:00:53]: Servicio asesoría creado
+[2026-05-15 18:00:53]: Sistema finalizado
+[2026-05-15 18:03:39]: Cliente Daniel registrado correctamente
+[2026-05-15 18:03:39]: Error cliente inválido: El nombre del cliente no puede estar vacío
+
+[2026-05-15 18:03:39]: Servicio Sala Premium creado
+[2026-05-15 18:03:39]: Reserva creada correctamente
+[2026-05-15 18:03:39]: Reserva inválida detectada: La duración de la reserva debe ser mayor a cero
+[2026-05-15 18:03:39]: Reserva confirmada
+[2026-05-15 18:03:39]: Reserva cancelada
+[2026-05-15 18:03:39]: Cliente inválido: El documento del cliente no puede estar vacío
+[2026-05-15 18:03:39]: Email inválido: El email del cliente no es válido
+
+[2026-05-15 18:03:39]: Sala Ejecutiva creada
+[2026-05-15 18:03:39]: Servicio alquiler creado
+[2026-05-15 18:03:39]: Servicio asesoría creado
+[2026-05-15 18:03:39]: Sistema finalizado

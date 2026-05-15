@@ -1,5 +1,7 @@
 from models.cliente import Cliente
 from models.reserva import Reserva
+from models.servicios.alquiler_equipo import AlquilerEquipo
+from models.servicios.asesoria import Asesoria
 from models.servicios.reserva_sala import ReservaSala
 
 from exceptions.custom_exceptions import (
@@ -24,11 +26,11 @@ try:
 
     registrar_log("Cliente Daniel registrado correctamente")
 
-    print(cliente1.mostrar_info())
+    print(f"{cliente1.mostrar_info()}\n")
 
 except ClienteInvalidoError as error:
 
-    registrar_log(f"Error cliente: {error}")
+    registrar_log(f"Error cliente: {error}\n")
 
     print(error)
 
@@ -42,11 +44,11 @@ try:
         "correo_malo"
     )
 
-    print(cliente2.mostrar_info())
+    print(f"{cliente2.mostrar_info()}\n")
 
 except ClienteInvalidoError as error:
 
-    registrar_log(f"Error cliente inválido: {error}")
+    registrar_log(f"Error cliente inválido: {error}\n")
 
     print(f"ERROR: {error}")
 
@@ -62,7 +64,7 @@ try:
 
     registrar_log("Servicio Sala Premium creado")
 
-    print(sala.mostrar_descripcion())
+    print(f"{sala.mostrar_descripcion()}\n")
 
 except Exception as error:
 
@@ -82,11 +84,11 @@ try:
 
     registrar_log("Reserva creada correctamente")
 
-    print(reserva1.mostrar_reserva())
+    print(f"{reserva1.mostrar_reserva()}\n")
 
 except ReservaError as error:
 
-    registrar_log(f"Error reserva: {error}")
+    registrar_log(f"Error reserva: {error}\n")
 
     print(error)
 
@@ -104,13 +106,13 @@ except ReservaError as error:
 
     registrar_log(f"Reserva inválida detectada: {error}")
 
-    print(f"ERROR: {error}")
+    print(f"ERROR: {error}\n")
 
 
 # OPERACIÓN 6
 try:
 
-    print(reserva1.confirmar_reserva())
+    print(f"{reserva1.confirmar_reserva()}\n")
 
     registrar_log("Reserva confirmada")
 
@@ -118,13 +120,13 @@ except Exception as error:
 
     registrar_log(f"Error confirmando reserva: {error}")
 
-    print(error)
+    print(f"ERROR: {error}\n")
 
 
 # OPERACIÓN 7
 try:
 
-    print(reserva1.cancelar_reserva())
+    print(f"{reserva1.cancelar_reserva()}\n")
 
     registrar_log("Reserva cancelada")
 
@@ -132,7 +134,7 @@ except Exception as error:
 
     registrar_log(f"Error cancelando reserva: {error}")
 
-    print(error)
+    print(f"ERROR: {error}\n")
 
 
 # OPERACIÓN 8
@@ -148,7 +150,7 @@ except ClienteInvalidoError as error:
 
     registrar_log(f"Cliente inválido: {error}")
 
-    print(error)
+    print(f"ERROR: {error}\n")
 
 
 # OPERACIÓN 9
@@ -162,9 +164,9 @@ try:
 
 except ClienteInvalidoError as error:
 
-    registrar_log(f"Email inválido: {error}")
+    registrar_log(f"Email inválido: {error}\n")
 
-    print(error)
+    print(f"ERROR: {error}\n")
 
 
 # OPERACIÓN 10
@@ -176,7 +178,7 @@ try:
         50
     )
 
-    print(sala2.mostrar_descripcion())
+    print(f"{sala2.mostrar_descripcion()}\n")
 
     registrar_log("Sala Ejecutiva creada")
 
@@ -184,8 +186,46 @@ except Exception as error:
 
     registrar_log(f"Error sala ejecutiva: {error}")
 
+    print(f"ERROR: {error}\n")
+
+
+# OPERACIÓN 11
+try:
+
+    alquiler = AlquilerEquipo(
+        "Alquiler Computadores",
+        100,
+        5
+    )
+
+    print(f"{alquiler.mostrar_descripcion()}\n")
+
+    registrar_log("Servicio alquiler creado")
+
+except Exception as error:
+
+    registrar_log(f"Error alquiler: {error}")
+
     print(error)
 
+#OPERACIÓN 12
+try:
+
+    asesoria = Asesoria(
+        "Asesoría Python",
+        80,
+        4
+    )
+
+    print(f"{asesoria.mostrar_descripcion()}\n")
+
+    registrar_log("Servicio asesoría creado")
+
+except Exception as error:
+
+    registrar_log(f"Error asesoría: {error}")
+
+    print(error)
 
 finally:
 
