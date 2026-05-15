@@ -227,8 +227,27 @@ except Exception as error:
 
     print(error)
 
-finally:
+print("\n--- PRUEBAS SOBRECARGA ---\n")
 
-    print("\n--- FIN DEL SISTEMA ---\n")
+print(
+    "Costo normal:",
+    sala.calcular_costo()
+)
 
-    registrar_log("Sistema finalizado")
+print(
+    "Costo con impuesto:",
+    sala.calcular_costo(impuesto=0.19)
+)
+
+print(
+    "Costo con impuesto y descuento:",
+    sala.calcular_costo(
+        impuesto=0.19,
+        descuento=0.10
+    )
+)
+
+
+
+print("\n--- FIN DEL SISTEMA ---\n")
+registrar_log("Sistema finalizado")
