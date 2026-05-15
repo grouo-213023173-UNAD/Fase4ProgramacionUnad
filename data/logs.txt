@@ -1,0 +1,11 @@
+[2026-05-15 17:18:11]: Cliente Daniel registrado correctamente
+[2026-05-15 17:18:11]: Error cliente inválido: El nombre del cliente no puede estar vacío
+[2026-05-15 17:18:11]: Servicio Sala Premium creado
+[2026-05-15 17:18:11]: Reserva creada correctamente
+[2026-05-15 17:18:11]: Reserva inválida detectada: La duración de la reserva debe ser mayor a cero
+[2026-05-15 17:18:11]: Reserva confirmada
+[2026-05-15 17:18:11]: Reserva cancelada
+[2026-05-15 17:18:11]: Cliente inválido: El documento del cliente no puede estar vacío
+[2026-05-15 17:18:11]: Email inválido: El email del cliente no es válido
+[2026-05-15 17:18:11]: Sala Ejecutiva creada
+[2026-05-15 17:18:12]: Sistema finalizado
