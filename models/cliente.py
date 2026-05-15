@@ -17,4 +17,4 @@ class Cliente:
         self.__email = email
 
     def mostrar_info(self):
-        return f"Cliente: {self.__nombre}, Documento: {self.__documento}, Email: {self.__email}"
+        return f"{self.__nombre}\nDocumento: {self.__documento} Email: {self.__email}"

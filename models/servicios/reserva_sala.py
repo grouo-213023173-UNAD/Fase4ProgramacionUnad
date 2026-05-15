@@ -10,4 +10,4 @@ class ReservaSala(Servicio):
         return round(self._costo_base * 1.10)
     
     def mostrar_descripcion(self):
-        return f"Servicio: {self._nombre}\nCapacidad: {self.capacidad} personas\nCosto: ${self.calcular_costo()}"
+        return f"{self._nombre}\nCapacidad: {self.capacidad} personas\nCosto: ${self.calcular_costo()}"
